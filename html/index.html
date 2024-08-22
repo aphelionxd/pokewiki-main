@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="fIjQ8HiUf3QYVNENsIfVH9xTpmjvqx-yqFT-WgESxUI" />
+    <title>Pokémon API</title>
+    <link rel="icon" href="../img/Pokebola-pokeball-png-0.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <button id="resetButton">Resetar</button>
+    <div class="container">
+        <h1 class="header">Poke wiki</h1>
+        <input type="text" id="pokemonNameInput" placeholder="Insira o nome do Pokémon">
+        <button onclick="getPokemon()">Buscar</button>
+        <div id="animationContainer">
+            <div id="loadingIndicator"></div>
+        </div>
+        <div id="pokemonInfo" class="pokemon-info" style="display:none;">
+        </div>
+    </div>
+    <footer>
+        <p>Versão Beta - Gizmo - © 2024</p>
+    </footer>
+</body>
+</html>
